@@ -8,7 +8,7 @@ import { NotificationProvider } from '@web3uikit/core';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <NotificationProvider>
+  <NotificationProvider basename="/">
     <BrowserRouter>
       <App />
     </BrowserRouter>
